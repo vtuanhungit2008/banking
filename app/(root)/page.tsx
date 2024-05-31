@@ -26,9 +26,9 @@ const HomePage = async () => {
         </header>
       Recent trans
     </div>
-    <RightSidebar user={logIn}
+    {/* <RightSidebar user={logIn}
     transactions={[]}
-    banks={[{currentBalance:123.50},{currentBalance:200.0}]}/>
+    banks={[{currentBalance:123.50},{currentBalance:200.0}]}/> */}
    </section>
   )
 }

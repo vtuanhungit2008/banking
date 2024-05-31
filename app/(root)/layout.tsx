@@ -10,7 +10,7 @@ export default function RootLayout({
     const logIn = {firstName: "Hung" ,lastName:'Vo'}
     return (
       <main className="flex h-screen w-full font-inter">
-       <SideBar user = {logIn}/>
+       {/* <SideBar user = {logIn}/> */}
 
        <div className="flex size-full flex-col">
         <div className="root-layout">
@@ -21,7 +21,7 @@ export default function RootLayout({
         alt='aaa'
           />
           <div>
-            <MobileNav user ={logIn}/>
+            {/* <MobileNav user ={logIn}/> */}
           </div>
         </div>
         {children}
